@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviw Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Movie Review Page</h1>
+        <p>By Mrunal | Published:2025</p>
+    </header>
+    <!-- Navigation -->
+     <nav>
+        <ul>
+            <li><a href="#about">About Movie</a></li>
+            <li><a href="#trailer">Trailer</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#Cast">Cast</a></li>
+</ul>
+  </nav>
+  <!-- About Section -->
+   <section id="about"></section>
+   <h2> About the Movie</h2>
+   <article>
+    <p><strong>Jab We Met</strong> is a romantic comedy film released in 2007, directed by Imtiaz Ali. The story revolves around a chance encounter between a depressed businessman and a lively young woman on a train journey. Their unexpected adventure leads to self-discovery and love.</p>
+   </article>
+   <!-- Video Trailer -->
+    <section id="trailer">
+        <h2>Official Trailer</h2>
+        <video width="400" controls>
+            <source src="trailer.mp4" type="video/mp4">
+        </video>
+        <p>Background Music: "Tum Se Hi" by Mohit Chauhan</p>
+        <audio controls>
+            <source src="tumshehi.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+</audio>
+    </section>
+
+    <section id="review">
+    <h2>Write your Review</h2>
+    <form >
+        <label for="">Your Name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" placeholder="your@gmail.com" required> <br><br>
+
+        <label for="rating">Rate the Movie (1-10):</label><br>
+            <input type="range" id="rating" min="1" max="10"><br><br>
+
+        <label for="date">Watched On:</label><br>
+            <input type="date" id="date"><br><br>
+        
+            <label for="comments">Your Comments:</label><br>
+            <textarea id="comments" rows="4" cols="40"></textarea><br><br>
+            <input type="submit" value="Submit Review">
+
+</form>
+</section>
+<!-- Cast Table -->
+ <section id="cast">
+    <h2>Main Cast:</h2>
+    <table border="8">
+        <tr>
+            <th>Actor</th>
+            <th>Role</th>
+        
+        </tr>
+        <tr>
+            <td>Shahid Kapoor</td>
+            <td>Aditya Kashyap</td>
+
+        </tr>
+        <tr>
+            <td>Kareena Kapoor</td>
+            <td>Geet Dhillon</td>
+        </tr>
+    </table>
+ </section>
+ <!-- Footer Section -->
+  <footer>
+    <p> &copy2025 Movie Reviw by Mrunal Zambre</p>
+  </footer>
+</body>
+</html>
